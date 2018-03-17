@@ -3,7 +3,7 @@
 ./getHostIP-Master123.sh
 echo $PEER_NAME
 echo $PRIVATE_IP
-
+cd /etc/kubernetes/pki/etcd
 cfssl print-defaults csr > config.json
 sed -i '0,/CN/{s/example\.net/'"$PEER_NAME"'/}' config.json
 sed -i 's/www\.example\.net/'"$PRIVATE_IP"'/' config.json
