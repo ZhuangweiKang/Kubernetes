@@ -7,7 +7,7 @@ cat >config.yaml <<EOF
 apiVersion: kubeadm.k8s.io/v1alpha1
 kind: MasterConfiguration
 api:
-  advertiseAddress: 10.10.26.108
+  advertiseAddress: 10.10.26.131
 etcd:
   endpoints:
   - https://129.59.107.140:2379
