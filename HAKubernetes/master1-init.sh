@@ -19,7 +19,7 @@ etcd:
 networking:
   podSubnet: 192.168.0.0/16
 apiServerCertSANs:
-- 10.10.26.100
+- 10.10.26.135
 apiServerExtraArgs:
   apiserver-count: "3"
 EOF

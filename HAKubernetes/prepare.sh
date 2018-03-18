@@ -2,9 +2,6 @@
 # Install git
 apt-get install git
 # Pull repository
-cd ~/
-git clone https://github.com/ZhuangweiKang/Kubernetes.git
-cd HAKubernetes
 
 #Install Docker
 ./install-docker.sh

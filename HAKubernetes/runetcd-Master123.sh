@@ -40,7 +40,7 @@ ExecStart=/usr/local/bin/etcd --name ${PEER_NAME} \
     --peer-key-file=/etc/kubernetes/pki/etcd/peer-key.pem \
     --peer-client-cert-auth \
     --peer-trusted-ca-file=/etc/kubernetes/pki/etcd/ca.pem \
-    --initial-cluster kubernetes-m1=https://129.59.107.140:2380,kubernetes-m2=https://129.59.107.141:2380,kubernetes-m3=https://129.59.107.133:2380 \
+    --initial-cluster kubernetes-m1=https://10.10.26.131:2380,kubernetes-m2=https://10.10.26.133:2380,kubernetes-m3=https://10.10.26.123:2380 \
     --initial-cluster-token my-etcd-token \
     --initial-cluster-state new
 
