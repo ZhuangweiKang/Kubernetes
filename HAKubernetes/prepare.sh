@@ -1,8 +1,11 @@
 #!/bin/sh
+<<<<<<< HEAD
 # Install git
 apt-get install git
 # Pull repository
 
+=======
+>>>>>>> 81af3a6fea250122cb76479b23201f3baf9859ea
 #Install Docker
 ./install-docker.sh
 # Install kubeadm, kubelet, kubectl
